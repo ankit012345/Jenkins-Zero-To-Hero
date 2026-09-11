@@ -29,7 +29,7 @@ pipeline {
 
     stage('Static Code Analysis') {
       environment {
-        SONAR_URL = 'http://13.235.69.10:9000'
+        SONAR_URL = 'http://3.109.209.161:9000'
       }
 
       steps {
